@@ -1,3 +1,4 @@
+![cyclops](./assets/screenshot400.png)
 # Cyclops
 * Author: Paul Taylor
 * Author URI: https://oldcastleweb.com
@@ -54,6 +55,11 @@ This theme can use all Bootstrap classes, elements and styles.
 For responsive image please add img-fluid class to img element.
 
 ### Responsive video
-Cloak video element (video element or embedded video) with <div class="flexvideo">...your video...</div>.
+Cloak video element (video element or embedded video) with 
+
+`<div class="flexvideo">...your video...</div>;`.
 
 You can find theme help message in Admin dashboard > Appearance > Cyclops help.
+
+## Version 1.0
+At last, we have reached version 1.0. The theme will probably work best without using the right hand sidebar, but it is left there just in case needed. It works best if the Encyclopedia Search box is added to the Navigation Right sidebar. Of course, the whole theme needs the Encyclopedia Lite plugin, if it is to work as a knowledge-based wiki-type application.
