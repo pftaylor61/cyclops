@@ -4,7 +4,7 @@ Theme URI: http://oldcastleweb.com
 Author: Paul Taylor
 Author URI: http://oldcastleweb.com
 Description: Cyclops is a theme, designed for operating a knowledge-based "wiki" style website. It works best with the Encyclopedia Lite plugin. It has been developed from the Bootstrap Basic v4 theme, created by Vee Winch and christianoliff. They have the following comments about Bootstrap Basic4. Bootstrap v.4 basic theme for developers to build their new theme very fast and easy. (WordPress 5 or Gutenberg ready.) The concept is to keep it basic, no rich features, no additional functions; all of these for theme developers will be easier to start develop their theme. To follow what was changed, please look for <a href="https://github.com/Rundiz-WP/bootstrap-basic4" target="commits">commits</a> of this theme at Github or changelog.md file that come with the theme. Please read notice on Bootstrap Basic 4 Help page in Dashboard &gt; Appearance &gt; Bootstrap Basic4 Help or in readme.txt file in this theme package.
-Version: 0.0.1
+Version: 1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: cyclops
@@ -163,4 +163,36 @@ Required WordPress CSS
 	top: 5px;
 	width: auto;
 	z-index: 100000; /* Above WP toolbar. */
+}
+
+/* Social Media icons */
+.social-media-icons {
+	float: right;
+	height: auto;
+}
+
+.social-media-icons ul {
+	list-style: none;
+	margin: .5em 0 0 0;
+	padding: 0;
+}
+
+.social-media-icons li {
+	display: inline-block;
+	margin: 0.1em 0 0 0.6em;
+	font-size: 0.6rem;
+	text-align: left;
+}
+
+.social-media-icons a {
+	color: #333;
+	text-decoration: none;
+}
+
+.social-media-icons a:visited {
+	color: #333;
+}
+
+.social-media-icons a:hover, .social-media-icons a:active { 
+	color: #2997ab;
 }

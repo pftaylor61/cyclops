@@ -47,6 +47,9 @@ if (!is_scalar($container_class) || empty($container_class)) {
                         <div class="sr-only">
                             <a href="#content" title="<?php esc_attr_e('Skip to content', 'cyclops'); ?>"><?php _e('Skip to content', 'cyclops'); ?></a>
                         </div>
+                        <div id="social-media-menu" class="social-media-icons">
+                            <?php echo cyclops_get_social_media(); ?>
+                        </div>
                         <?php if (is_active_sidebar('header-right')) { ?> 
                         <div class="float-right">
                             <?php dynamic_sidebar('header-right'); ?> 
